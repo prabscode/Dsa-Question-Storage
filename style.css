@@ -1,0 +1,103 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f9;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input and Textarea */
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  /* Button */
+  button {
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Questions List */
+  #questionList {
+    margin-top: 20px;
+  }
+  
+  .question {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question pre {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .separator {
+    border-top: 2px dashed #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .delete-btn:hover {
+    background: #cc0000;
+  }
+  
